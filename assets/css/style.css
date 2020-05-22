@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+   font-family: 'Quicksand', sans-serif;
+    margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 30px;
+}
+
+nav {
+   background-color: #2b6097;
+   padding: 5px;
+   position: sticky;
+   top: 0px;
+   text-align: right;
+   padding-right: 50px;
+   z-index: 1;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+footer {
+   padding: 10px;
+   color: white;
+   background-color: #2b6097;
+   text-align: center;
+   font-weight: bold;
+   position: fixed;
+   top:624px;
+   width: 100%;
+}
+
+a{
+   text-decoration: none;
+}
+
+.area{
+	height: 498px;
+	margin-bottom: 140px;
+	overflow: auto;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+#content {
+   float: left;
+   width: 70%;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+aside {
+   	float: right;
+   	width: 30%;
+      padding-left: 20px;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 250px;
+   border-radius: 150px;
+}
+
+.profile{
+	height: 498px;
+	position: fixed;
+}
+
+header{
+	display: inline;
+}
+
+/*Profile*/
+/*About Me*/
+.container-judul{
+   position: relative;
+}
+
+.judul-item{
+   display: inline;
+   padding-top: 0px;
+   padding-left: 45px;
+}
+
+.icon-judul{
+   font-size: 35px;
+   position: absolute;
+   margin-top: -2px;
+   /*padding-top: 30px;*/
+}
+
+.icon-resume, .icon-education{
+   font-size: 25px;
+   position: absolute;
+   /*padding-top: 30px;*/
+}
+
+.judul-item-resume, .judul-item-education{
+   display: inline;
+   padding-top: 0px;
+   padding-left: 35px;
+   position: relative;
+}
+
+article li{
+   list-style-type: none;
+   margin-left: -50px;
+}
+
+article ul{
+   margin:30px;
+}
+
+.biodata-item{
+    float:right;
+}
+
+.list-about i{
+  color:#0069d6;
+}
+
+.hobby i{
+  color:#0069d6;
+  font-size: 35px;
+}
+
+#resume section i, .date{
+  color:#0069d6;
+}
+
+blockquote::before,
+blockquote::after {
+   content: '"';
+   font-size: 24px;
+   font-style: italic;
+   font-weight: bold;
+}
+
+/*Hobby*/
+.konten-kiri{
+   width:50%;
+   float:left;
+}
+
+.konten-kanan{
+   width:50%;
+   float:right;
+   padding-left: 20px;
+}
+/*End Profile*/
+
+/*Resume*/
+
+.resume-bar {
+  list-style: none;
+}
+.resume-bar >li {
+  position: relative;
+  color: red;*/
+}
+.resume-bar>li:before {
+  content: '\25CF';
+  margin-right: 10px;
+  font-size: 20px;
+}
+.resume-bar>li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  border-left: 2px solid black;
+  margin-left: 5px;
+  height: 100%;
+  /*border-color: red;*/
+}
+.resume-bar >li:first-of-type:after {
+  top: 50%;
+}
+.resume-bar >li:last-of-type:after {
+  top: -50%;
+}
+
+.clear{
+   clear:both;
+}
+
+.teks-icon{
+   display: inline;
+}
+
+/* 5.2 Skills */
+.progress-percentage div{
+   display:inline-block;
+}
+
+.teks-persen{
+   float: right;
+}
+
+.skills-persen ul li .progress {
+   position: relative;
+   display: block;
+   width: 100%;
+   height: 4px;
+   background: #d8dbe2;
+}
+
+.skills-persen ul li .progress .percentage {
+   position: relative;
+   left: 0;
+   top: 0;
+   width: 0%;
+   height: 100%;
+   background: blue;
+   transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -webkit-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+/*section{
+   padding-bottom: 90px;
+}*/
+
+/*article{
+   clear:both;
+}*/
+
+
+/*html{
+	position: relative;
+}*/
+
+/*Portfolio*/
+#portfolio .filter{
+  text-align: center;
+  padding: 20px;
+}
+
+.grid{
+  /*background-color: red;*/
+  padding-left: 2%;
+}
+
+
+.portfolio{
+  border: solid #e4e4e4 0.4px;
+}
+
+.portfolio header{
+   text-align: center;
+}
+
+.portfolio img {
+   width: 100%;
+   border-radius: 20px;
+}
+
+.btn-portfolio{
+  /*width: 45px;*/
+  height: 35px;
+  border-radius: 12px;
+  background-color: #3d5f81;
+  color: white;
+}
+
+.active{
+  background-color: #006ad7;
+}
+
+.active-top-link{
+  font-weight: bold;
+}
+
+/*.grid{
+  margin: 0px auto;
+  text-align: center;
+}*/
+/*End Portfolio*/
+
+/*Contact*/
+.container-kontak{
+  margin: 10px;
+}
+
+.input-kontak{
+  border:1px solid grey;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.input-kontak, input{
+ /*padding-left: 20px;*/
+ padding: 20px;
+}
+
+.teksarea-kontak{
+  border:1px solid grey;
+  width: 100%;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.teksarea-kontak, textarea{
+ padding: 20px;
+}
+
+.judul-kontak{
+  padding: 10px;
+  margin: 0;
+}
+
+/*Button Hover*/
+.tombolhover {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    float:right;
+}
+
+.tombolhover-one {
+    /*color: red;*/
+    transition: all 0.3s;
+    position: relative;
+}
+.tombolhover-one span {
+    transition: all 0.3s;
+}
+.tombolhover-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #0069d6;
+    border-bottom-color: #0069d6;
+    transform: scale(0.1, 1);
+}
+.tombolhover-one:hover span {
+    letter-spacing: 2px;
+}
+.tombolhover-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+}
+/*End Contact*/
+
+a{
+  color:blue;
+}
+
+hr{
+  border:solid #e4e4e4 0.4px;
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1000px) {
+
+  body {
+   font-family: 'Quicksand', sans-serif;
+    margin: 0;
+   padding: 0;
+   overflow: visible;
+}
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   .profile{
+      height: 498px;
+      position: relative;
+    }
+
+    .area{
+      height: 498px;
+      /*background-color: grey;*/
+      margin-bottom: 0px;
+      overflow: auto;
+    }
+
+    .konten-kiri{
+         width:100%;
+         float:left;
+      }
+
+      .konten-kanan{
+         width:100%;
+         float:right;
+         padding-left: 0px;
+      }
+
+      .portfolio img {
+         width: 100%;
+         border-radius: 20px;
+      }
+
+   nav{
+    text-align: center;
+    font-size: 10px;
+   }
+
+   nav a {
+     font-size: 13px;
+     font-weight: 400;
+     text-decoration: none;
+     color: white;
+  }
+
+  footer {
+   padding: 10px;
+   color: white;
+   background-color: #2b6097;
+   text-align: center;
+   font-weight: bold;
+   position: relative;
+   top:0px;
+   width: 100%;
+   font-size: 12px;
+}
+
+}
+
+
